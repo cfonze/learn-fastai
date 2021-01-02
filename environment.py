@@ -1,3 +1,5 @@
+# An example Python script to check environment/platform information
+
 import torch
 import psutil
 import platform
@@ -5,12 +7,6 @@ from datetime import datetime
 
 # converts large number of bytes into a scaled format 
 def get_size(bytes, suffix="B"):
-    """
-    Scale bytes to its proper format
-    e.g:
-        1253656 => '1.20MB'
-        1253656678 => '1.17GB'
-    """
     factor = 1024
     for unit in ["", "K", "M", "G", "T", "P"]:
         if bytes < factor:

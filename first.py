@@ -1,7 +1,4 @@
-#import fastbook
-#fastbook.setup_book()
-
-#from fastbook import *
+# The first example in the fastai book in Python
 
 from fastai.vision.all import *
 print(URLs.PETS)
