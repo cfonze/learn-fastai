@@ -8,7 +8,9 @@ This repository is a collection of my notes and Jupyter notebooks I used during 
 
 My environment is a LSF cluster of several hundred GPU nodes.  I use Anaconda to manage Python packages in my environment.  I am also using Jupyter notebooks for learning.
 
-[fastai docs](https://docs.fast.ai)
+* [fastai docs](https://docs.fast.ai)
+* [Jupyter Widets](https://ipywidgets.readthedocs.io/en/stable/examples/Using%20Interact.html)
+* [Addtional documentation on inference](https://muellerzr.github.io/fastinference/inference/)
 
 ## Environment setup
 
