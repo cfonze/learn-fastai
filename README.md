@@ -1,8 +1,14 @@
 # learn-fastai
 
-This repository is a collection of my notes and Jupyter notebooks I used during learning fastai [book](https://github.com/fastai/fastbook)
+This repository is a collection of my notes and Jupyter notebooks I used during learning fastai
+
+* [Deep Learning for Coders with Fastai and PyTorch (Amazon)](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)
+* [Practical Deep Learning for Coders 2020 (Youtube)](https://youtube.com/playlist?list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM)
+* [fastbook (github)](https://github.com/fastai/fastbook)
 
 My environment is a LSF cluster of several hundred GPU nodes.  I use Anaconda to manage Python packages in my environment.  I am also using Jupyter notebooks for learning.
+
+[fastai docs](https://docs.fast.ai)
 
 ## Environment setup
 
