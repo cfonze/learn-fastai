@@ -40,4 +40,4 @@ conda install -c conda-forge sentencepiece
 
 ## Launching and using a Jupyter Notebook server
 
-Use the ```launch-jupyter-server.sh``` shell script.  The script launches a LSF job which executes the ```jupyter-server-job.sh``` shell script on the node chosen by LSF.  Once the job launches, use the LSF ```bpeek``` command to get the output of the job which has the jupyter server url.  Use the browser on your local system to point to that url.
+Activate the Anaconda environment ```conda activate learn-fastai``` then use the ```launch-jupyter-server.sh``` shell script.  The script launches a LSF job which executes the ```jupyter-server-job.sh``` shell script on the node chosen by LSF.  Once the job launches, use the LSF ```bpeek``` command to get the output of the job which has the jupyter server url.  Use the browser on your local system to point to that url.
