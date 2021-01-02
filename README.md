@@ -1,6 +1,12 @@
 # learn-fastai
 
+This repository is a collection of my notes and Jupyter notebooks I used during learning fastai [book](https://github.com/fastai/fastbook)
+
+My environment is a LSF cluster of several hundred GPU nodes.  I use Anaconda to manage Python packages in my environment.
+
 ## Environment setup
+
+Create a new Anaconda environment and install the required packages. 
 
 ```bash
 conda create --name learn-fastai python=3.7 -y
@@ -8,10 +14,16 @@ conda activate learn-fastai
 conda install -c fastai -c pytorch fastai -y
 conda install -c conda-forge jupyterlab -y
 conda install -c anaconda psutil 
-conda install -c fastai fastbook
-conda install -c conda-forge sentencepiece 
 conda clean --tarballs
 ```
+
+To remove this env use the following command:
+
+```bash
+conda env remove -n learn-fastai
+```
+
+By default, Anaconda installs the packages in the environments in your home directory.  If your home directory is limited in space, you may want to place your environments in a different location.  Also, note that the dataloaders of fastai also place the data (by default) in the ```<your home directory>/.fastai``` so you may also want to change that.
 
 To check the size of your home directory:
 
@@ -19,8 +31,10 @@ To check the size of your home directory:
 du -sh ~
 ```
 
-To remove the env use the following command:
+
+### Optional
 
 ```bash
-conda env remove -n learn-fastai
+conda install -c fastai fastbook
+conda install -c conda-forge sentencepiece 
 ```
